@@ -1,0 +1,14 @@
+user_location_ws.autocomplete:
+  path: '/user_location_ws/autocomplete/{entity_type}/{bundle}/{field_name}'
+  defaults:
+    _controller: '\Drupal\user_location_ws\Controller\UserLocationWsAutocompleteController::autocomplete'
+  requirements:
+    _access: 'TRUE'
+
+user_location_ws.settings:
+  path: '/admin/config/people/user-location-ws-settings'
+  defaults:
+    _title: 'User Location WS configuration'
+    _form: Drupal\user_location_ws\Form\UserLocationWsSettingsForm
+  requirements:
+    _permission: 'administer site configuration'

@@ -1,0 +1,19 @@
+uuid: 2982338a-b83c-4c3d-a1f3-3a4aef60652a
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+    - user_location_ws
+id: user.field_user_location_ws
+field_name: field_user_location_ws
+entity_type: user
+type: user_location_ws
+module: user_location_ws
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
+settings: {  }

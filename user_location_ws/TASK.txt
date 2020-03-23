@@ -1,0 +1,29 @@
+----------------------------------------------------------------------------------------
+Užduotis pretendentui
+----------------------------------------------------------------------------------------
+
+1. Vartotojo registracijos formoje pridėti papildomą privalomą savivaldybės pasirinkimo
+sąrašą (droplist). Savivaldybių sąrašas yra gaunamos iš išorinės duomenų teikimo
+aplikacijos. Nuorodos į aplikaciją pateiktos žemiau.
+2. Pasirinkus savivaldybę vartotojui parodomas privalomas laisvai įvedamas miesto laukas.
+3. Išvedamas savivaldybių kiekis sąraše yra administruojamas.
+4. Pasirinkta savivaldybė ir įvestas miestas pateikiami vartotojo profilyje.
+5. Papildomi laukeliai pagal poreikį turėtų būti sukurti naudojant Plugin API.
+
+----------------------------------------------------------------------------------------
+Užduotis pretendentui : igyvendinimas
+----------------------------------------------------------------------------------------
+
+1. field config install + service(guzzle) + service config [ok]
+2. state fields + field config install (proper field definitions to save to 2 separate columns) [ok]
+3. field definition and defaultSettings extension = let admin to select from obtained from API [ok]
+4. user field [ok]
+5. plugin api [ok]
+
+
+----------------------------------------------------------------------------------------
+API KEY SAMPLE
+----------------------------------------------------------------------------------------
+ELO1xno7R6KF0XyegyzU
+
+

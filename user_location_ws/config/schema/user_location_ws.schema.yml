@@ -1,0 +1,10 @@
+field.field_settings.user_location_ws:
+  label: 'User Location WS settings'
+  type: mapping
+  mapping:
+    municipality_select:
+      type: sequence
+      label: 'Selectable user location ws'
+      sequence:
+        type: string
+

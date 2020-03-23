@@ -1,0 +1,14 @@
+<?php
+
+use Drupal\Core\Link;
+
+/**
+ * Implements hook_install().
+ */
+function user_location_ws_install() {
+  \Drupal::messenger()
+    ->addStatus(t('User location WS needs API key for @settings_page.', [
+      '@settings_page' => Link::createFromRoute(t('Municipality service'), 'user_location_ws.settings')
+        ->toString(),
+    ]));
+}

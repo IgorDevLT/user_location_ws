@@ -1,0 +1,11 @@
+name: User location field based on WS call
+type: module
+description: User location field
+# version: VERSION
+# core: 8.x
+dependencies:
+  - field
+core: '8.x'
+project: 'user_location_ws'
+datestamp: 1467193143
+configure: user_location_ws.settings

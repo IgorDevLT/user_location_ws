@@ -1,0 +1,3 @@
+ws:
+  service_url: https://api.postit.lt/v2/
+  api_key:

@@ -1,0 +1,7 @@
+services:
+  user_location_ws.field.manager:
+    class: Drupal\user_location_ws\UserLocationWsManager
+    arguments: []
+  user_location_ws_client:
+    class: Drupal\user_location_ws\UserLocationWsClient
+    arguments: ['@http_client_factory', '@cache.default', '@datetime.time', '@config.factory']
